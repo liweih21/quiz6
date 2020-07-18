@@ -16,7 +16,7 @@ in: i = 0
 in: df
 
 shows answers of:
-out: 		ID	Year	DOY	UTC		RelHum
+out: 			ID	Year	DOY	UTC	RelHum
 		0	7	2020	013	2354	77.8
 		1	7	2020	013	2356	77.2
 		2	7	2020	013	2358	77.2
