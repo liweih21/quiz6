@@ -14,20 +14,23 @@ in[]: col = content[0:5]
 in[]: idx = range(int((len(content) - len(col)) / len(col)))
 in[]: df = pd.DataFrame(columns = col, index = idx)
 
-in[]: in: i = 0
+in[]: i = 0
 	for j in range(5, len(content), 5):
 	df.iloc[i, :] = content[j: j+5]
 	i = i + 1
 	
-in: df
-out: 			ID	Year	DOY	UTC	RelHum
+in[]: df
+out[]: 
+			ID	Year	DOY	UTC	RelHum
 		0	7	2020	013	2354	77.8
 		1	7	2020	013	2356	77.2
 		2	7	2020	013	2358	77.2
 		3	7	2020	014	0000	77.7
 		4	7	2020	014	0002	77.6
-		
-		
+...
+
+
+
 2.
 in: content = 'Tim Hortons restaurants have stopped selling Beyond Meat products at its coffee and donut shops across two of Canada’s biggest provinces. The chain had been serving the Beyond Burger and a Beyond Meat breakfast sandwich made with the company’s imitation sausage products. After an initial launch starting in June at nearly 4,000 Canadian locations, the items were scaled back to the provinces of Ontario and British Columbia in September. “We introduced Beyond Meat as a limited time offer. We are always listening to our guests and testing new products that align to our core menu offerings. We may offer Beyond Meat again in the future,” Tim Hortons said in an e-mailed statement. Tim Hortons lives at 123, Nebraska St, New York, CA. His email is tim.hortons@gmail.com. His phone number is 123-456-7890. Pagliuca was quick to note Bain Capital’s acquired companies have grown revenue two times faster than S&P 500 components and have created 1.1 million more jobs since being bought by the private equity shop. Bain Capital lives at 4567, California Ave, Seattle, VA. His email is bain.capital@gmail.com. His phone number is 896-374-9365.'
 
